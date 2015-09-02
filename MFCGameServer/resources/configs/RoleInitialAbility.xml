@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 角色初始能力配置  type:职业类型 1=战士 2=法师 3=射手 DWORD maxhp;		//最大生命值
+		DWORD maxmp;		//最大魔法值 
+		DWORD maxtp;		//最大技力
+		DWORD hp;			//生命值 health point
+		DWORD mp;			//魔法值 mana point
+		DWORD tp;			//技力 technology point
+		DWORD power;		//力量
+		DWORD wisdom;		//智力
+		DWORD quick;		//敏捷
+		DWORD constitution;	//体质
+		DWORD fighting;		//战力
+		DWORD phyhurt;		//物理攻击
+		DWORD maghurt;		//魔法攻击
+		DWORD defense;		//防御
+		DWORD magdef;		//魔防
+		DWORD speed;		//速度
+		BYTE fireanti;		//炎抗
+		BYTE iceanti;		//冰抗
+		BYTE thunderanti;	//类抗
+		BYTE darkanti;		//冥抗-->
+<RoleInitialAbility>
+	<init type="1" maxhp="100" maxmp="50" maxtp="100" power="10" wisdom="2" quick="5" constitution="10" defense="10" magdef="5" fireanti="0" iceanti="0" thunderanti="0" darkanti="0"/>
+	<init type="2" maxhp="50" maxmp="100" maxtp="50" power="2" wisdom="10" quick="6" constitution="6" defense="5" magdef="10" fireanti="0" iceanti="0" thunderanti="0" darkanti="0"/>
+	<init type="3" maxhp="50" maxmp="50" maxtp="50" power="5"wisdom="5" quick="12" constitution="6" defense="5" magdef="6" fireanti="0" iceanti="0" thunderanti="0" darkanti="0"/>
+	<grow type="1" maxhp="10" maxmp="5" maxtp="10" power="3" wisdom="1" quick="1" constitution="4" defense="3" magdef="3"/>
+	<grow type="2" maxhp="5" maxmp="10" maxtp="5" power="1" wisdom="3" quick="2" constitution="2" defense="1" magdef="1"/>
+	<grow type="3" maxhp="5" maxmp="5" maxtp="10" power="1" wisdom="1" quick="3" constitution="2" defense="1" magdef="1"/>
+</RoleInitialAbility>

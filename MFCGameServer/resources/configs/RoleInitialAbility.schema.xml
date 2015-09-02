@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RoleInitialAbility>
+	<init type="int" maxhp="int" maxmp="int" maxtp="int" power="int" wisdom="int" quick="int" constitution="int" defense="int" magdef="int" fireanti="int" iceanti="int" thunderanti="int" darkanti="int" container_="map" key_="type"/>
+	<grow type="int" maxhp="int" maxmp="int" maxtp="int" power="int" wisdom="int" quick="int" constitution="int" defense="int" magdef="int" container_="map" key_="type"/>
+</RoleInitialAbility>
