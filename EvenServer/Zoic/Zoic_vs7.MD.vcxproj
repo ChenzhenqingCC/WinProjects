@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_PCLint|Win32">
+      <Configuration>Release_PCLint</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Zoic_vs7</ProjectName>
+    <ProjectGuid>{0558FCCD-30D8-4F54-8EFE-505310899FEB}</ProjectGuid>
+    <RootNamespace>Zoic</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <TargetName>ZoicD</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'">
+    <OutDir>$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.;..;mysql/include;zlib;iconv/include;libxml2/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;UNDEF_THREAD_HACK;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)ZoicD.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..;mysql/include;zlib;iconv/include;libxml2/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;UNDEF_THREAD_HACK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zoic.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>mysql/include;zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;UNDEF_THREAD_HACK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zoic.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckRunTime.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="CommandFactory.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Connection.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="FdSet.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageImpl.cpp" />
+    <ClCompile Include="MessageTransfer.cpp" />
+    <ClCompile Include="MissingFunction.cpp" />
+    <ClCompile Include="NetLog.cpp" />
+    <ClCompile Include="NormalQuery.cpp" />
+    <ClCompile Include="NormalRecordset.cpp" />
+    <ClCompile Include="ParameterValue.cpp" />
+    <ClCompile Include="ProtocolVersion.cpp" />
+    <ClCompile Include="Query.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Recordset.cpp" />
+    <ClCompile Include="RunTimeMonitor.cpp" />
+    <ClCompile Include="Selectable.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Service.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionBank.cpp" />
+    <ClCompile Include="SessionC.cpp" />
+    <ClCompile Include="SessionS.cpp" />
+    <ClCompile Include="SharedBufferControl.cpp" />
+    <ClCompile Include="SharedBufferReader.cpp" />
+    <ClCompile Include="SharedBufferWriter.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="SplitString.cpp" />
+    <ClCompile Include="StmtQuery.cpp" />
+    <ClCompile Include="StmtRecordset.cpp" />
+    <ClCompile Include="SysModuleRegister.cpp" />
+    <ClCompile Include="SysPing.cpp" />
+    <ClCompile Include="TinyBinary.cpp" />
+    <ClCompile Include="VectorMessage.cpp" />
+    <ClCompile Include="WorkFlow.cpp" />
+    <ClCompile Include="mysql\libmysql\array.c" />
+    <ClCompile Include="mysql\libmysql\bchange.c" />
+    <ClCompile Include="mysql\libmysql\bcmp.c" />
+    <ClCompile Include="mysql\libmysql\bmove.c" />
+    <ClCompile Include="mysql\libmysql\bmove_upp.c" />
+    <ClCompile Include="mysql\libmysql\charset-def.c" />
+    <ClCompile Include="mysql\libmysql\charset.c" />
+    <ClCompile Include="mysql\libmysql\client.c" />
+    <ClCompile Include="mysql\libmysql\ctype-big5.c" />
+    <ClCompile Include="mysql\libmysql\ctype-bin.c" />
+    <ClCompile Include="mysql\libmysql\ctype-cp932.c" />
+    <ClCompile Include="mysql\libmysql\ctype-czech.c" />
+    <ClCompile Include="mysql\libmysql\ctype-euc_kr.c" />
+    <ClCompile Include="mysql\libmysql\ctype-eucjpms.c" />
+    <ClCompile Include="mysql\libmysql\ctype-extra.c" />
+    <ClCompile Include="mysql\libmysql\ctype-gb2312.c" />
+    <ClCompile Include="mysql\libmysql\ctype-gbk.c" />
+    <ClCompile Include="mysql\libmysql\ctype-latin1.c" />
+    <ClCompile Include="mysql\libmysql\ctype-mb.c" />
+    <ClCompile Include="mysql\libmysql\ctype-simple.c" />
+    <ClCompile Include="mysql\libmysql\ctype-sjis.c" />
+    <ClCompile Include="mysql\libmysql\ctype-tis620.c" />
+    <ClCompile Include="mysql\libmysql\ctype-uca.c" />
+    <ClCompile Include="mysql\libmysql\ctype-ucs2.c" />
+    <ClCompile Include="mysql\libmysql\ctype-ujis.c" />
+    <ClCompile Include="mysql\libmysql\ctype-utf8.c" />
+    <ClCompile Include="mysql\libmysql\ctype-win1250ch.c" />
+    <ClCompile Include="mysql\libmysql\ctype.c" />
+    <ClCompile Include="mysql\libmysql\dbug.c" />
+    <ClCompile Include="mysql\libmysql\default.c" />
+    <ClCompile Include="mysql\libmysql\default_modify.c" />
+    <ClCompile Include="mysql\libmysql\errmsg.c" />
+    <ClCompile Include="mysql\libmysql\errors.c" />
+    <ClCompile Include="mysql\libmysql\get_password.c" />
+    <ClCompile Include="mysql\libmysql\hash.c" />
+    <ClCompile Include="mysql\libmysql\int2str.c" />
+    <ClCompile Include="mysql\libmysql\is_prefix.c" />
+    <ClCompile Include="mysql\libmysql\libmysql.c" />
+    <ClCompile Include="mysql\libmysql\list.c" />
+    <ClCompile Include="mysql\libmysql\llstr.c" />
+    <ClCompile Include="mysql\libmysql\longlong2str.c" />
+    <ClCompile Include="mysql\libmysql\manager.c" />
+    <ClCompile Include="mysql\libmysql\md5.c" />
+    <ClCompile Include="mysql\libmysql\mf_cache.c" />
+    <ClCompile Include="mysql\libmysql\mf_dirname.c" />
+    <ClCompile Include="mysql\libmysql\mf_fn_ext.c" />
+    <ClCompile Include="mysql\libmysql\mf_format.c" />
+    <ClCompile Include="mysql\libmysql\mf_iocache.c" />
+    <ClCompile Include="mysql\libmysql\mf_iocache2.c" />
+    <ClCompile Include="mysql\libmysql\mf_loadpath.c" />
+    <ClCompile Include="mysql\libmysql\mf_pack.c" />
+    <ClCompile Include="mysql\libmysql\mf_path.c" />
+    <ClCompile Include="mysql\libmysql\mf_tempfile.c" />
+    <ClCompile Include="mysql\libmysql\mf_unixpath.c" />
+    <ClCompile Include="mysql\libmysql\mf_wcomp.c" />
+    <ClCompile Include="mysql\libmysql\mulalloc.c" />
+    <ClCompile Include="mysql\libmysql\my_access.c" />
+    <ClCompile Include="mysql\libmysql\my_alloc.c" />
+    <ClCompile Include="mysql\libmysql\my_chsize.c" />
+    <ClCompile Include="mysql\libmysql\my_compress.c" />
+    <ClCompile Include="mysql\libmysql\my_create.c" />
+    <ClCompile Include="mysql\libmysql\my_delete.c" />
+    <ClCompile Include="mysql\libmysql\my_div.c" />
+    <ClCompile Include="mysql\libmysql\my_error.c" />
+    <ClCompile Include="mysql\libmysql\my_file.c" />
+    <ClCompile Include="mysql\libmysql\my_fopen.c" />
+    <ClCompile Include="mysql\libmysql\my_fstream.c" />
+    <ClCompile Include="mysql\libmysql\my_gethostbyname.c" />
+    <ClCompile Include="mysql\libmysql\my_getopt.c" />
+    <ClCompile Include="mysql\libmysql\my_getwd.c" />
+    <ClCompile Include="mysql\libmysql\my_init.c" />
+    <ClCompile Include="mysql\libmysql\my_lib.c" />
+    <ClCompile Include="mysql\libmysql\my_malloc.c" />
+    <ClCompile Include="mysql\libmysql\my_messnc.c" />
+    <ClCompile Include="mysql\libmysql\my_net.c" />
+    <ClCompile Include="mysql\libmysql\my_once.c" />
+    <ClCompile Include="mysql\libmysql\my_open.c" />
+    <ClCompile Include="mysql\libmysql\my_port.c" />
+    <ClCompile Include="mysql\libmysql\my_pread.c" />
+    <ClCompile Include="mysql\libmysql\my_pthread.c" />
+    <ClCompile Include="mysql\libmysql\my_read.c" />
+    <ClCompile Include="mysql\libmysql\my_realloc.c" />
+    <ClCompile Include="mysql\libmysql\my_rename.c" />
+    <ClCompile Include="mysql\libmysql\my_seek.c" />
+    <ClCompile Include="mysql\libmysql\my_sleep.c" />
+    <ClCompile Include="mysql\libmysql\my_static.c" />
+    <ClCompile Include="mysql\libmysql\my_strtoll10.c" />
+    <ClCompile Include="mysql\libmysql\my_symlink.c" />
+    <ClCompile Include="mysql\libmysql\my_thr_init.c" />
+    <ClCompile Include="mysql\libmysql\my_time.c" />
+    <ClCompile Include="mysql\libmysql\my_vsnprintf.c" />
+    <ClCompile Include="mysql\libmysql\my_write.c" />
+    <ClCompile Include="mysql\libmysql\net.c" />
+    <ClCompile Include="mysql\libmysql\pack.c" />
+    <ClCompile Include="mysql\libmysql\password.c" />
+    <ClCompile Include="mysql\libmysql\safemalloc.c" />
+    <ClCompile Include="mysql\libmysql\sha1.c" />
+    <ClCompile Include="mysql\libmysql\str2int.c" />
+    <ClCompile Include="mysql\libmysql\str_alloc.c" />
+    <ClCompile Include="mysql\libmysql\strcend.c" />
+    <ClCompile Include="mysql\libmysql\strcont.c" />
+    <ClCompile Include="mysql\libmysql\strend.c" />
+    <ClCompile Include="mysql\libmysql\strfill.c" />
+    <ClCompile Include="mysql\libmysql\string.c" />
+    <ClCompile Include="mysql\libmysql\strinstr.c" />
+    <ClCompile Include="mysql\libmysql\strmake.c" />
+    <ClCompile Include="mysql\libmysql\strmov.c" />
+    <ClCompile Include="mysql\libmysql\strnlen.c" />
+    <ClCompile Include="mysql\libmysql\strnmov.c" />
+    <ClCompile Include="mysql\libmysql\strtod.c" />
+    <ClCompile Include="mysql\libmysql\strtoll.c" />
+    <ClCompile Include="mysql\libmysql\strtoull.c" />
+    <ClCompile Include="mysql\libmysql\strxmov.c" />
+    <ClCompile Include="mysql\libmysql\strxnmov.c" />
+    <ClCompile Include="mysql\libmysql\thr_mutex.c" />
+    <ClCompile Include="mysql\libmysql\typelib.c" />
+    <ClCompile Include="mysql\libmysql\vio.c" />
+    <ClCompile Include="mysql\libmysql\viosocket.c" />
+    <ClCompile Include="mysql\libmysql\viossl.c" />
+    <ClCompile Include="mysql\libmysql\viosslfactories.c" />
+    <ClCompile Include="mysql\libmysql\xml.c" />
+    <ClCompile Include="xmlparse\xmlparser.cpp" />
+    <ClCompile Include="zlib\adler32.c" />
+    <ClCompile Include="zlib\compress.c" />
+    <ClCompile Include="zlib\crc32.c" />
+    <ClCompile Include="zlib\deflate.c" />
+    <ClCompile Include="zlib\gzio.c" />
+    <ClCompile Include="zlib\infback.c" />
+    <ClCompile Include="zlib\inffast.c" />
+    <ClCompile Include="zlib\inflate.c" />
+    <ClCompile Include="zlib\inftrees.c" />
+    <ClCompile Include="zlib\trees.c" />
+    <ClCompile Include="zlib\uncompr.c" />
+    <ClCompile Include="zlib\zutil.c" />
+    <ClCompile Include="logger\appender.cpp" />
+    <ClCompile Include="logger\bufferappender.cpp" />
+    <ClCompile Include="logger\consoleappender.cpp" />
+    <ClCompile Include="logger\extendfileappender.cpp" />
+    <ClCompile Include="logger\fileappender.cpp" />
+    <ClCompile Include="logger\logcontent.cpp" />
+    <ClCompile Include="logger\logger.cpp" />
+    <ClCompile Include="logger\loggerappenderstorage.cpp" />
+    <ClCompile Include="logger\loggerbufferwriter.cpp" />
+    <ClCompile Include="logger\loggerstrategy.cpp" />
+    <ClCompile Include="logger\loglevel.cpp" />
+    <ClCompile Include="logger\logmonitorsender.cpp" />
+    <ClCompile Include="logger\logstatusstrategy.cpp" />
+    <ClCompile Include="logger\logtargetdescription.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="iconv\include\iconv.h" />
+    <ClInclude Include="include\Binary.h" />
+    <ClInclude Include="include\Bond.h" />
+    <ClInclude Include="include\CheckRunTime.h" />
+    <ClInclude Include="include\ClassStorage.h" />
+    <ClInclude Include="include\Clock.h" />
+    <ClInclude Include="include\CommandFactory.h" />
+    <ClInclude Include="include\config-win.h" />
+    <ClInclude Include="include\Config.h" />
+    <ClInclude Include="include\config_flat.h" />
+    <ClInclude Include="include\ConfigDeclare.h" />
+    <ClInclude Include="include\ConfigImplement.h" />
+    <ClInclude Include="include\Connection.h" />
+    <ClInclude Include="include\DataHolder.h" />
+    <ClInclude Include="include\DataImage.h" />
+    <ClInclude Include="include\DataLoader.h" />
+    <ClInclude Include="include\DataReader.h" />
+    <ClInclude Include="include\DateTime.h" />
+    <ClInclude Include="include\Exception.h" />
+    <ClInclude Include="include\FdSet.h" />
+    <ClInclude Include="include\FixArray.h" />
+    <ClInclude Include="include\for_each.h" />
+    <ClInclude Include="include\Log.h" />
+    <ClInclude Include="include\Message.h" />
+    <ClInclude Include="include\MessageImpl.h" />
+    <ClInclude Include="include\MessageTransfer.h" />
+    <ClInclude Include="include\Missing.h" />
+    <ClInclude Include="include\MissingFunction.h" />
+    <ClInclude Include="include\Module.h" />
+    <ClInclude Include="include\NetLog.h" />
+    <ClInclude Include="include\NoCopy.h" />
+    <ClInclude Include="include\NormalQuery.h" />
+    <ClInclude Include="include\NormalRecordset.h" />
+    <ClInclude Include="include\OutOfBoundException.h" />
+    <ClInclude Include="include\ParameterValue.h" />
+    <ClInclude Include="include\ProtocolVersion.h" />
+    <ClInclude Include="include\ProtocolVersionException.h" />
+    <ClInclude Include="include\Query.h" />
+    <ClInclude Include="include\QueryDefine.h" />
+    <ClInclude Include="include\Random.h" />
+    <ClInclude Include="include\Recordset.h" />
+    <ClInclude Include="include\RetFalse.h" />
+    <ClInclude Include="include\RunTimeMonitor.h" />
+    <ClInclude Include="include\Selectable.h" />
+    <ClInclude Include="include\Selector.h" />
+    <ClInclude Include="include\Service.h" />
+    <ClInclude Include="include\Session.h" />
+    <ClInclude Include="include\SessionBank.h" />
+    <ClInclude Include="include\SessionC.h" />
+    <ClInclude Include="include\SessionCommand.h" />
+    <ClInclude Include="include\SessionError.h" />
+    <ClInclude Include="include\SessionS.h" />
+    <ClInclude Include="include\SharedBufferControl.h" />
+    <ClInclude Include="include\SharedBufferReader.h" />
+    <ClInclude Include="include\SharedBufferWriter.h" />
+    <ClInclude Include="include\Signal.h" />
+    <ClInclude Include="include\Singleton.h" />
+    <ClInclude Include="include\SplitString.h" />
+    <ClInclude Include="include\StmtQuery.h" />
+    <ClInclude Include="include\StmtRecordset.h" />
+    <ClInclude Include="include\StrCharArray.h" />
+    <ClInclude Include="include\String.h" />
+    <ClInclude Include="include\SysModuleRegister.h" />
+    <ClInclude Include="include\SysPing.h" />
+    <ClInclude Include="include\TinyBinary.h" />
+    <ClInclude Include="include\Types.h" />
+    <ClInclude Include="include\VarArray.h" />
+    <ClInclude Include="include\VectorMessage.h" />
+    <ClInclude Include="include\WorkFlow.h" />
+    <ClInclude Include="libxml2\include\libxml\c14n.h" />
+    <ClInclude Include="libxml2\include\libxml\catalog.h" />
+    <ClInclude Include="libxml2\include\libxml\chvalid.h" />
+    <ClInclude Include="libxml2\include\libxml\debugXML.h" />
+    <ClInclude Include="libxml2\include\libxml\dict.h" />
+    <ClInclude Include="libxml2\include\libxml\DOCBparser.h" />
+    <ClInclude Include="libxml2\include\libxml\encoding.h" />
+    <ClInclude Include="libxml2\include\libxml\entities.h" />
+    <ClInclude Include="libxml2\include\libxml\globals.h" />
+    <ClInclude Include="libxml2\include\libxml\hash.h" />
+    <ClInclude Include="libxml2\include\libxml\HTMLparser.h" />
+    <ClInclude Include="libxml2\include\libxml\HTMLtree.h" />
+    <ClInclude Include="libxml2\include\libxml\list.h" />
+    <ClInclude Include="libxml2\include\libxml\nanoftp.h" />
+    <ClInclude Include="libxml2\include\libxml\nanohttp.h" />
+    <ClInclude Include="libxml2\include\libxml\parser.h" />
+    <ClInclude Include="libxml2\include\libxml\parserInternals.h" />
+    <ClInclude Include="libxml2\include\libxml\pattern.h" />
+    <ClInclude Include="libxml2\include\libxml\relaxng.h" />
+    <ClInclude Include="libxml2\include\libxml\SAX.h" />
+    <ClInclude Include="libxml2\include\libxml\SAX2.h" />
+    <ClInclude Include="libxml2\include\libxml\schemasInternals.h" />
+    <ClInclude Include="libxml2\include\libxml\schematron.h" />
+    <ClInclude Include="libxml2\include\libxml\threads.h" />
+    <ClInclude Include="libxml2\include\libxml\tree.h" />
+    <ClInclude Include="libxml2\include\libxml\uri.h" />
+    <ClInclude Include="libxml2\include\libxml\valid.h" />
+    <ClInclude Include="libxml2\include\libxml\xinclude.h" />
+    <ClInclude Include="libxml2\include\libxml\xlink.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlautomata.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlerror.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlexports.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlIO.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlmemory.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlmodule.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlreader.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlregexp.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlsave.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlschemas.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlschemastypes.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlstring.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlunicode.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlversion.h" />
+    <ClInclude Include="libxml2\include\libxml\xmlwriter.h" />
+    <ClInclude Include="libxml2\include\libxml\xpath.h" />
+    <ClInclude Include="libxml2\include\libxml\xpathInternals.h" />
+    <ClInclude Include="libxml2\include\libxml\xpointer.h" />
+    <ClInclude Include="mysql\include\base64.h" />
+    <ClInclude Include="mysql\include\config-netware.h" />
+    <ClInclude Include="mysql\include\config-os2.h" />
+    <ClInclude Include="mysql\include\config-win.h" />
+    <ClInclude Include="mysql\include\decimal.h" />
+    <ClInclude Include="mysql\include\errmsg.h" />
+    <ClInclude Include="mysql\include\ft_global.h" />
+    <ClInclude Include="mysql\include\hash.h" />
+    <ClInclude Include="mysql\include\heap.h" />
+    <ClInclude Include="mysql\include\help_end.h" />
+    <ClInclude Include="mysql\include\help_start.h" />
+    <ClInclude Include="mysql\include\keycache.h" />
+    <ClInclude Include="mysql\include\m_ctype.h" />
+    <ClInclude Include="mysql\include\m_string.h" />
+    <ClInclude Include="mysql\include\md5.h" />
+    <ClInclude Include="mysql\include\my_aes.h" />
+    <ClInclude Include="mysql\include\my_alarm.h" />
+    <ClInclude Include="mysql\include\my_alloc.h" />
+    <ClInclude Include="mysql\include\my_base.h" />
+    <ClInclude Include="mysql\include\my_bitmap.h" />
+    <ClInclude Include="mysql\include\my_config.h" />
+    <ClInclude Include="mysql\include\my_dbug.h" />
+    <ClInclude Include="mysql\include\my_dir.h" />
+    <ClInclude Include="mysql\include\my_getopt.h" />
+    <ClInclude Include="mysql\include\my_global.h" />
+    <ClInclude Include="mysql\include\my_handler.h" />
+    <ClInclude Include="mysql\include\my_list.h" />
+    <ClInclude Include="mysql\include\my_net.h" />
+    <ClInclude Include="mysql\include\my_no_pthread.h" />
+    <ClInclude Include="mysql\include\my_nosys.h" />
+    <ClInclude Include="mysql\include\my_pthread.h" />
+    <ClInclude Include="mysql\include\my_semaphore.h" />
+    <ClInclude Include="mysql\include\my_sys.h" />
+    <ClInclude Include="mysql\include\my_time.h" />
+    <ClInclude Include="mysql\include\my_tree.h" />
+    <ClInclude Include="mysql\include\my_user.h" />
+    <ClInclude Include="mysql\include\my_xml.h" />
+    <ClInclude Include="mysql\include\myisam.h" />
+    <ClInclude Include="mysql\include\myisammrg.h" />
+    <ClInclude Include="mysql\include\myisampack.h" />
+    <ClInclude Include="mysql\include\mysql.h" />
+    <ClInclude Include="mysql\include\mysql_com.h" />
+    <ClInclude Include="mysql\include\mysql_embed.h" />
+    <ClInclude Include="mysql\include\mysql_time.h" />
+    <ClInclude Include="mysql\include\mysql_version.h" />
+    <ClInclude Include="mysql\include\mysqld_ername.h" />
+    <ClInclude Include="mysql\include\mysqld_error.h" />
+    <ClInclude Include="mysql\include\mysys_err.h" />
+    <ClInclude Include="mysql\include\queues.h" />
+    <ClInclude Include="mysql\include\raid.h" />
+    <ClInclude Include="mysql\include\rijndael.h" />
+    <ClInclude Include="mysql\include\sha1.h" />
+    <ClInclude Include="mysql\include\sql_common.h" />
+    <ClInclude Include="mysql\include\sql_state.h" />
+    <ClInclude Include="mysql\include\sslopt-case.h" />
+    <ClInclude Include="mysql\include\sslopt-longopts.h" />
+    <ClInclude Include="mysql\include\sslopt-vars.h" />
+    <ClInclude Include="mysql\include\t_ctype.h" />
+    <ClInclude Include="mysql\include\thr_alarm.h" />
+    <ClInclude Include="mysql\include\thr_lock.h" />
+    <ClInclude Include="mysql\include\typelib.h" />
+    <ClInclude Include="mysql\include\violite.h" />
+    <ClInclude Include="mysql\libmysql\client_settings.h" />
+    <ClInclude Include="mysql\libmysql\my_static.h" />
+    <ClInclude Include="mysql\libmysql\mysys_priv.h" />
+    <ClInclude Include="mysql\libmysql\vio_priv.h" />
+    <ClInclude Include="xmlparse\tw_cast.h" />
+    <ClInclude Include="xmlparse\xmlparser.h" />
+    <ClInclude Include="xmlparse\xmlparser.in.h" />
+    <ClInclude Include="zlib\crc32.h" />
+    <ClInclude Include="zlib\deflate.h" />
+    <ClInclude Include="zlib\inffast.h" />
+    <ClInclude Include="zlib\inffixed.h" />
+    <ClInclude Include="zlib\inflate.h" />
+    <ClInclude Include="zlib\inftrees.h" />
+    <ClInclude Include="zlib\trees.h" />
+    <ClInclude Include="zlib\zconf.h" />
+    <ClInclude Include="zlib\zlib.h" />
+    <ClInclude Include="zlib\zutil.h" />
+    <ClInclude Include="logger\appender.h" />
+    <ClInclude Include="logger\bufferappender.h" />
+    <ClInclude Include="logger\consoleappender.h" />
+    <ClInclude Include="logger\extendfileappender.h" />
+    <ClInclude Include="logger\fileappender.h" />
+    <ClInclude Include="logger\logcontent.h" />
+    <ClInclude Include="logger\logger.h" />
+    <ClInclude Include="logger\loggerappenderstorage.h" />
+    <ClInclude Include="logger\loggerbufferwriter.h" />
+    <ClInclude Include="logger\loggerstrategy.h" />
+    <ClInclude Include="logger\loglevel.h" />
+    <ClInclude Include="logger\logmonitorsender.h" />
+    <ClInclude Include="logger\logstatusstrategy.h" />
+    <ClInclude Include="logger\logtargetdescription.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="pclint.bin">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">正在生成PCLint工程文件：$(TargetName).lnt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">LINT-NT.EXE -v -os($(ProjectDir)\$(TargetName).lnt) -dConfiguration="Release" $(ProjectDir)\$(ProjectFileName)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)\$(TargetName).x;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'">正在生成PCLint工程文件：$(TargetName).lnt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'">LINT-NT.EXE -v -os($(ProjectDir)\$(TargetName).lnt) -dConfiguration="Release" $(ProjectDir)\$(ProjectFileName)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release_PCLint|Win32'">$(ProjectDir)\$(TargetName).x;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">正在生成PCLint工程文件：$(TargetName).lnt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">LINT-NT.EXE -v -os($(ProjectDir)\$(TargetName).lnt) -dConfiguration="Release" $(ProjectDir)\$(ProjectFileName)
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)\$(TargetName).x;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

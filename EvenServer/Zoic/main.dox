@@ -1,0 +1,28 @@
+/*!
+	@mainpage Zoic 文档
+
+	@section getting_started 简介
+
+	Zoic 库支持跨平台网络应用程序的开发,它有以下几个模块。
+	<ul>
+	<li>平台处理模块<br>
+		定义各个平台之间数据类型与函数。解决平台之间的移植问题。
+	<li>服务构架<br>
+		定义的Service类与Moudle类模板，方便程序自动增加各种不同的模块
+	<li>网络服务<br>
+		定义了Session,SessionBank等类处理网络消息。
+	<li>MySQL数据库访问<br>
+		通过Connection,Query,Recordset访问MySQL数据库
+	<li>内置模块<br>
+		Clock,SysPing,Singal等模块整个到库内部。
+	<li>实用类<br>
+		Array用来定义在联合中的数组。
+	</ul>
+*/
+
+//! @defgroup flat_define 平台定义模块
+//! @defgroup service 服务构架
+//! @defgroup network 网络服务
+//! @defgroup mysql MySQL数据库访问
+//! @defgroup buildin 内置模块
+//! @defgroup utils 通用设施

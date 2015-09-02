@@ -1,0 +1,3518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataHolder&lt;ITEM&gt;" Collapsed="true">
+    <Position X="22.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAwAAAAQABABEAIEAAAQMAAAAAAAASAARAAAAAAAAA=</HashCode>
+      <FileName>include\DataHolder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataImage&lt;T&gt;" Collapsed="true">
+    <Position X="72.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAKAAQAAAAAQAgAAAAAAAAAAIEAAAAAAA=</HashCode>
+      <FileName>include\DataImage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataLoader&lt;ITEM&gt;" Collapsed="true">
+    <Position X="74.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAyAAAAQIAAAAEAAAAAAIABAAAACAYAAQAAABAAAAA=</HashCode>
+      <FileName>include\DataLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataReader&lt;ITEM&gt;" Collapsed="true">
+    <Position X="27.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIJgAQIAAAAAAAIAJAAAAAAAAQAAAAACAAACAAAA=</HashCode>
+      <FileName>include\DataReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="`anonymous-namespace'::loadWinSock" Collapsed="true">
+    <Position X="71" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="`anonymous-namespace'::init_s_syspingTimes" Collapsed="true">
+    <Position X="69.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SysPing.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Binary&lt;LEN, SIZE_TYPE&gt;" Collapsed="true">
+    <Position X="11.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Binary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Bond&lt;IMPL, A, B&gt;" Collapsed="true">
+    <Position X="11.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAIAgAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Bond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Bonder_Pointer&lt;IMPL, SELF, PARTER&gt;" Collapsed="true">
+    <Position X="64" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAgAAAEAAAAQEQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Bond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Bond_1_1&lt;IMPL, A, B&gt;" Collapsed="true">
+    <Position X="11.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Bond.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::CheckRunTime" Collapsed="true">
+    <Position X="65.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAIAABAhAgQAAAAAIAACAAAAAAAAQAKAAAAAAABA=</HashCode>
+      <FileName>include\CheckRunTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ClassStorage&lt;INFO&gt;" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\ClassStorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Clock" Collapsed="true">
+    <Position X="47.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgJAAAAAAAAQAAAABAAAEAYAAAAAAAQAAgEQAgA=</HashCode>
+      <FileName>include\Clock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::CommandFactory" Collapsed="true">
+    <Position X="56.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAACABAAAAAAAAAIAAABBAAAAAAAgABAA=</HashCode>
+      <FileName>include\CommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ConfigLoader" Collapsed="true">
+    <Position X="71" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAYIAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Config.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ConfigItem&lt;T&gt;" Collapsed="true">
+    <Position X="67.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\ConfigImplement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ConfigItem&lt;const char*&gt;" Collapsed="true">
+    <Position X="69.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACKAAxEAAAAAKAAAAACABEAABAAAEAQBAAAAgAABQUA=</HashCode>
+      <FileName>include\ConfigImplement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Connection" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAIAAEAgCFAAACcEBACADAKwIQAAAAAAAA=</HashCode>
+      <FileName>include\Connection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Date" Collapsed="true">
+    <Position X="76.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAQAAAQAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>include\DateTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Time" Collapsed="true">
+    <Position X="76.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAiAAAAAQA=</HashCode>
+      <FileName>include\DateTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::DateTime" Collapsed="true">
+    <Position X="78" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAgAAAAQAAAQAAAQAAAAiAAAAAAA=</HashCode>
+      <FileName>include\DateTime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Exception" Collapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAACAAAAAAAAAAAAAAAAAAABAAABAAAAAAAA=</HashCode>
+      <FileName>include\Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::FdSet" Collapsed="true">
+    <Position X="64" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAgAAAAAAAAAAQAAAKAQgAQAAAAAIAAAAACCAgA=</HashCode>
+      <FileName>include\FdSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::FixArray&lt;T, LEN&gt;" Collapsed="true">
+    <Position X="67.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAIAAAQAAAAAQAAgAAAAAAAAAIiA=</HashCode>
+      <FileName>include\FixArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Log" Collapsed="true">
+    <Position X="31.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RQAgBAACBgEABAwAgAUIiIJImAgIAcSACCAACGDDABA=</HashCode>
+      <FileName>include\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::MessageState" Collapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggBAAAAAAAAA=</HashCode>
+      <FileName>include\Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Message" Collapsed="true">
+    <Position X="64" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIYAAEIAIAAiAAgAAAIASIACAAAAAAAghMAIAIAAAA=</HashCode>
+      <FileName>include\Message.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::VectorVarLen&lt;T&gt;" Collapsed="true">
+    <Position X="79.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\MessageImpl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::__ModuleContext" Collapsed="true">
+    <Position X="50.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAEAQAAEAAAIAAAAEAAAAAAAAAAAgAAQAAAAAI=</HashCode>
+      <FileName>include\Module.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Module&lt;T&gt;" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAACAAgBAAAAEAAAAAkAAQJAAAACAAAAAA=</HashCode>
+      <FileName>include\Module.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ModuleRleaser" Collapsed="true">
+    <Position X="71" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Module.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::NetLog" Collapsed="true">
+    <Position X="45.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEABAEAAAgAAAQAAAAAAAAAQQAAAAAAAABBAAg=</HashCode>
+      <FileName>include\NetLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::NoCopy" Collapsed="true">
+    <Position X="19.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\NoCopy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::NormalQuery" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAEEAAAABAAABQABhIAQAIAQAAA=</HashCode>
+      <FileName>include\NormalQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::NormalRecordset" Collapsed="true">
+    <Position X="13.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAABBAAEAAAABAAAAAAAAAk=</HashCode>
+      <FileName>include\NormalRecordset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::OutOfBoundException" Collapsed="true">
+    <Position X="20.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\OutOfBoundException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ProtocolVersion" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAgAAAAAAAAAIAAAAAAAAAAAAACAgAAAAA=</HashCode>
+      <FileName>include\ProtocolVersion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ProtocolVersionException" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAEAhAAAAAAAAAAAAADAAAAAAA=</HashCode>
+      <FileName>include\ProtocolVersionException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Query" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCAAAAAtAAQAAAAAIEMAAAAIAAAJAgDBIAAAAAAAAA=</HashCode>
+      <FileName>include\Query.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::QueryDefine&lt;T&gt;" Collapsed="true">
+    <Position X="74.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\QueryDefine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Recordset" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAANAYCAEAARCAAAAACABAAAAEAAAAoAAgAAIAAA=</HashCode>
+      <FileName>include\Recordset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::RecordsetPtr" Collapsed="true">
+    <Position X="76.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAEAEIAAAAQAAAAAIAAAAAABEAAAAAAA=</HashCode>
+      <FileName>include\Recordset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::RunTimeMonitor" Collapsed="true">
+    <Position X="34" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiEAAgIAAFIEIQAIAgEQEAAgAAQIAEKASAAREAAAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ModuleRunTimeMonitorHelper" Collapsed="true">
+    <Position X="72.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAI=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::MessageRunTimeMonitorHelper" Collapsed="true">
+    <Position X="65.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::FileRunTimeMonitorHelper" Collapsed="true">
+    <Position X="65.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAQAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Selectable" Collapsed="true">
+    <Position X="61.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAREEBAAAgBAAAAAAQAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>include\Selectable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Selector" Collapsed="true">
+    <Position X="40.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIBAAgAAAABAAAAsBAAAAACAAACAAAAAAQAAEAAAABA=</HashCode>
+      <FileName>include\Selector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Service" Collapsed="true">
+    <Position X="16" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAgBAAAAQCAAwQQAAAAAAKAAkQQAhABAAIAAAAMQ=</HashCode>
+      <FileName>include\Service.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SessionUnpackMethod" Collapsed="true">
+    <Position X="79.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAgAAAAAAAAQAACEAAAABAAAAAAAAAYAAAAAAAAA=</HashCode>
+      <FileName>include\Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Session" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DIAAhjAAAAEQBTDAJHIAASQpABBAWMAClIIACCCFBxA=</HashCode>
+      <FileName>include\Session.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SessionBank" Collapsed="true">
+    <Position X="56.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAASAoAQIAAIgBCgIEgAACACAgAgJBAIACICiABIEAA=</HashCode>
+      <FileName>include\SessionBank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SessionC" Collapsed="true">
+    <Position X="39.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAQAGEggAAAAAwAAEAgAEBAEIBAGAAIABA=</HashCode>
+      <FileName>include\SessionC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SessionCommand&lt;T&gt;" Collapsed="true">
+    <Position X="78" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>include\SessionCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SessionS" Collapsed="true">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACACACAAAACAAAAAAAEAAAACJABAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SessionS.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SharedBufferControl" Collapsed="true">
+    <Position X="64" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AlGGwIEAEAAgQgEYEAAEcGAEAKgwgAIAAAIRQCAlIAA=</HashCode>
+      <FileName>include\SharedBufferControl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SharedBufferReader" Collapsed="true">
+    <Position X="65.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKwAAIAAAAQBEIEkAEQIIEAAgQAAAAAAAXACAAAIA=</HashCode>
+      <FileName>include\SharedBufferReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SharedBufferWriter" Collapsed="true">
+    <Position X="67.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICGwAAIAAAgABEIgAAAQgACAAkQBAAAYBIXACEoAAA=</HashCode>
+      <FileName>include\SharedBufferWriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Signal" Collapsed="true">
+    <Position X="29.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAgAAA=</HashCode>
+      <FileName>include\Signal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Singleton&lt;T&gt;" Collapsed="true">
+    <Position X="16" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAUIAAAAAAAAAAA=</HashCode>
+      <FileName>include\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SingletonRleaser" Collapsed="true">
+    <Position X="69.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Singleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::StmtQuery" Collapsed="true">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AsAAAAAQEAAAAAAABAEEAAAAQAAIBACRhKARAAABAgA=</HashCode>
+      <FileName>include\StmtQuery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::StmtRecordset" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAACAABCAAAAAAAABAAAEAEAAAAAAAAAAAgE=</HashCode>
+      <FileName>include\StmtRecordset.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::StrCharArray&lt;LEN&gt;" Collapsed="true">
+    <Position X="71" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAAAiA=</HashCode>
+      <FileName>include\StrCharArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::String&lt;LEN&gt;" Collapsed="true">
+    <Position X="72.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAABAAAAAAAAAAQACAAQBAAgAAAAAAAAAAgAAAAiA=</HashCode>
+      <FileName>include\String.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::SysPingTime" Collapsed="true">
+    <Position X="74.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAABAEAIAAAAAAAAAAAAAAAAgAABAIAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SysPing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::TinyRefBinary" Collapsed="true">
+    <Position X="8.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQEAgEAIAAAAAAAAAAAAAABAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>include\TinyBinary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::TinyBinary" Collapsed="true">
+    <Position X="8.75" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>include\TinyBinary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::VarArray&lt;T, LEN, SIZE_TYPE&gt;" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEQAAAAAAAAAAAAAIEIAAAAAAAAAAgAAAEAAAIAIiA=</HashCode>
+      <FileName>include\VarArray.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::VectorPacker" Collapsed="true">
+    <Position X="78" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAMAIAAAAACAAAAACAAAAAAAAA=</HashCode>
+      <FileName>include\VectorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::DefaultVectorPacker&lt;PACKET&gt;" Collapsed="true">
+    <Position X="79.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAIAAAAACAAEAACAAAAAAAQA=</HashCode>
+      <FileName>include\VectorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::MessageSender&lt;SENDER, RESULT, ARGUMENT&gt;" Collapsed="true">
+    <Position X="69.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAIQAAQEAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\VectorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::MessageSender&lt;SENDER, RESULT, void&gt;" Collapsed="true">
+    <Position X="67.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\VectorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::VectorSender&lt;ELEMENT, SENDER, CONTAINER, PACKER&gt;" Collapsed="true">
+    <Position X="54.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAAAAEAAAAAQAAEAAAAAACAAAACo=</HashCode>
+      <FileName>include\VectorMessage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::WorkUnit" Collapsed="true">
+    <Position X="64" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\WorkFlow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::WorkFlow" Collapsed="true">
+    <Position X="58.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAABAAAAAAAAAAAgAgAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\WorkFlow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Appender" Collapsed="true">
+    <Position X="6.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIACAAAAAAAAAEAAgABAAARAIAAIAAIAAAAEAAAA=</HashCode>
+      <FileName>logger\appender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::BufferAppender" Collapsed="true">
+    <Position X="4" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAAAAAAAACABgAAAAAAAAAAIAAIAAAAEEAAg=</HashCode>
+      <FileName>logger\bufferappender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ConsoleAppender" Collapsed="true">
+    <Position X="6.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAgIBAIAAAAEAAAA=</HashCode>
+      <FileName>logger\consoleappender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::ExtendFileAppender" Collapsed="true">
+    <Position X="8.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAIAAAAAAAAAA=</HashCode>
+      <FileName>logger\extendfileappender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::FileAppender" Collapsed="true">
+    <Position X="8.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xABAAAAIAAAAAAAAAABoAAAAQABAAAYAEIAgICEAAAI=</HashCode>
+      <FileName>logger\fileappender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LogContent" Collapsed="true">
+    <Position X="5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAISAAAAgEQARAAIAAAABAAAAABAAAAAAACAEgCAA=</HashCode>
+      <FileName>logger\logcontent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::TextLogContent" Collapsed="true">
+    <Position X="4" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAEAAFAAAAAAAAAAAAAAAAAACAAAAAgAAA=</HashCode>
+      <FileName>logger\logcontent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::BinaryLogContent" Collapsed="true">
+    <Position X="6.25" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAABAAAAAAAAAAAAAAAEAAAAAAQAgAAA=</HashCode>
+      <FileName>logger\logcontent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::Logger" Collapsed="true">
+    <Position X="72.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IGAQAAAAABIAIAAAoAAABEAAUAAAAgAAIAGAAgggAIA=</HashCode>
+      <FileName>logger\logger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LoggerAppenderStorage" Collapsed="true">
+    <Position X="36.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAABgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logger\loggerappenderstorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LoggerBufferWriter" Collapsed="true">
+    <Position X="38.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECAgIAAABgAwGEoABAEAgEAAgAwAACCAAIRACBAAAA=</HashCode>
+      <FileName>logger\loggerbufferwriter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LoggerStrategy" Collapsed="true">
+    <Position X="74.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAEIAAAAAAEQAAIIBEAAAAAAAAAAIAEAICAAAAI=</HashCode>
+      <FileName>logger\loggerstrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LogLevel" Collapsed="true">
+    <Position X="76.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logger\loglevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LogMonitorBank" Collapsed="true">
+    <Position X="43" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAACAAAAAAAAAAKAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logger\logmonitorsender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LogStatusStrategy" Collapsed="true">
+    <Position X="78" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAgAgCgAAAAAAAAAAAAAACAGAAAA=</HashCode>
+      <FileName>logger\logstatusstrategy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoic::LogTargetDescription" Collapsed="true">
+    <Position X="79.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIQAAEAAIAACAAgBAAIASAAARAAAACAghACAAABAQE=</HashCode>
+      <FileName>logger\logtargetdescription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="block" Collapsed="true">
+    <Position X="67.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NormalQuery.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ParameterTypeParser" Collapsed="true">
+    <Position X="65.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAgAAAAAAAAAAgAAAAAAAAFAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Query.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ColumnFormatParser" Collapsed="true">
+    <Position X="69.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Recordset.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SingnalNameItem" Collapsed="true">
+    <Position X="74.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Signal.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DataHolderTraits&lt;ITEM&gt;" Collapsed="true">
+    <Position X="74.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\DataHolder.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DataLoaderTraits&lt;ITEM&gt;" Collapsed="true">
+    <Position X="76.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\DataLoader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DataReaderTraits&lt;ITEM&gt;" Collapsed="true">
+    <Position X="78" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\DataReader.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_decimal_t" Collapsed="true">
+    <Position X="47.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAACAAAAAAAAAACQAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\decimal.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_ft_vft" Collapsed="true">
+    <Position X="65.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAIABIAAAAA=</HashCode>
+      <FileName>mysql\include\ft_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_ft_info" Collapsed="true">
+    <Position X="39.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\ft_global.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_hash" Collapsed="true">
+    <Position X="35.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAEAAAAAAQAAIgAAIAAAAAAAAAAAAAAACAAAAQ=</HashCode>
+      <FileName>mysql\include\hash.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heapinfo" Collapsed="true">
+    <Position X="27.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAgAAAAAAACAAAABAEAIAAABAAACAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heap_ptrs" Collapsed="true">
+    <Position X="19.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_level_info" Collapsed="true">
+    <Position X="78" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heap_block" Collapsed="true">
+    <Position X="15.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAgAAAQAAEAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_hp_keydef" Collapsed="true">
+    <Position X="11.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAACABgAIAAMQCAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heap_share" Collapsed="true">
+    <Position X="52.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAAIgAgAAAREBIQAABAECIAAABAABCAgBAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heap_info" Collapsed="true">
+    <Position X="7.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAAkEAAACAAIQACEARAAAAQAAAAIAAAYAEAAQ=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_heap_create_info" Collapsed="true">
+    <Position X="3.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAABAAAAAABAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_keycache_wqueue" Collapsed="true">
+    <Position X="51.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_key_cache" Collapsed="true">
+    <Position X="51.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CDaAlFCgACAAQIAJRAIAAQCJQASCQBgAAEQgBCAEBAE=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="unicase_info_st" Collapsed="true">
+    <Position X="51.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_uni_idx_st" Collapsed="true">
+    <Position X="51.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_01df_1" Collapsed="true">
+    <Position X="31.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_collation_handler_st" Collapsed="true">
+    <Position X="51.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIQACAACAKCAAAAAAAAAAAAAAAIAAAACAABAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_charset_handler_st" Collapsed="true">
+    <Position X="51.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAiAAQAUAEAQAoIAAAAAQggAIBAAQIAAAgAAIAkAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="charset_info_st" Collapsed="true">
+    <Position X="51.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAgAAEAAASwABAAgCAQQCAJBFIgAkgDBAgAEAAgA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_021a_1" Collapsed="true">
+    <Position X="43.5" Y="52.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAABAAAAAAAA=</HashCode>
+      <FileName>mysql\include\md5.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_used_mem" Collapsed="true">
+    <Position X="50.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>mysql\include\my_alloc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mem_root" Collapsed="true">
+    <Position X="23.5" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAgAAAAAAAAAAAAAAAgAAABQgACAAI=</HashCode>
+      <FileName>mysql\include\my_alloc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_key_range" Collapsed="true">
+    <Position X="47.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAMAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_key_multi_range" Collapsed="true">
+    <Position X="39.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAAAAAAAAAAAAAAAEAAAAAEAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_bitmap" Collapsed="true">
+    <Position X="35.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_bitmap.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_stat" Collapsed="true">
+    <Position X="27.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAAAAABBAABAAAAAABAAAAAAACQACAAQ=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="fileinfo" Collapsed="true">
+    <Position X="19.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_my_dir" Collapsed="true">
+    <Position X="15.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_option" Collapsed="true">
+    <Position X="64" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAACAAAACAIAAAAABAAAAAAAEACAAAAAAyAACAwA=</HashCode>
+      <FileName>mysql\include\my_getopt.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_HA_KEYSEG" Collapsed="true">
+    <Position X="47.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgAAAAAggQMAAAAAAAAABEACAAAIAAAAAIAA=</HashCode>
+      <FileName>mysql\include\my_handler.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_list" Collapsed="true">
+    <Position X="47.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAIAAAA=</HashCode>
+      <FileName>mysql\include\my_list.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="thread_attr" Collapsed="true">
+    <Position X="47.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0250_1" Collapsed="true">
+    <Position X="11.5" Y="47.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_pthread_link" Collapsed="true">
+    <Position X="7.5" Y="49.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0250_2" Collapsed="true">
+    <Position X="3.5" Y="49.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="timespec" Collapsed="true">
+    <Position X="72.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_safe_mutex_t" Collapsed="true">
+    <Position X="31.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAEABAAAAAAAAAAAAAAABAAAAAAAIAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_my_rw_lock_t" Collapsed="true">
+    <Position X="46.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAACAAAAAAAAAABAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_my_thread_var" Collapsed="true">
+    <Position X="65.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAkAAAAAABMAAIAAABgAAoAogA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="wild_file_pack" Collapsed="true">
+    <Position X="43.5" Y="47.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAAABAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_record_cache" Collapsed="true">
+    <Position X="23.5" Y="46.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAECgAAAACABARBABAgAAAAABkA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_my_file_info" Collapsed="true">
+    <Position X="64" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_my_tmpdir" Collapsed="true">
+    <Position X="44.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_dynamic_array" Collapsed="true">
+    <Position X="43.5" Y="42.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAABAAAAAAAAAQAAAAAAAAAABAAAEAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_dynamic_string" Collapsed="true">
+    <Position X="39.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAABAAAAAAACAAAAAAAAEAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_io_cache" Collapsed="true">
+    <Position X="35.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQQAACAADIIAAADABEChAAAkQEBAgAADABAAABBEAI=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_tree_element" Collapsed="true">
+    <Position X="27.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAABAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_tree" Collapsed="true">
+    <Position X="43.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgwAAgAAAAAAAAAAAYAhAAAgAAEAAAAAAAAAAAgAQAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_stack_st" Collapsed="true">
+    <Position X="43.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAGAAAAACAAAAAAAgAQAAAEACAABIAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_xml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mi_isaminfo" Collapsed="true">
+    <Position X="19.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGEABABAAECIgACAIgAIiAAkABABAIMABBAAgCAACAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mi_create_info" Collapsed="true">
+    <Position X="15.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIEKgAAiAAgAAAgAgABAAAIEAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mi_keydef" Collapsed="true">
+    <Position X="42.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAACBCAAAQABAQQIQACAAAAAAAAAAAAAAUQDACEAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_unique_def" Collapsed="true">
+    <Position X="11.5" Y="44.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAACAAAAAAAAEAQEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mi_decode_tree" Collapsed="true">
+    <Position X="7.5" Y="44.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAEAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_columndef" Collapsed="true">
+    <Position X="3.5" Y="44.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAiACgBAAAAAAAAAAEAAAAAAAAABEAAAAAAAAAAAIAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_sort_key_blocks" Collapsed="true">
+    <Position X="31.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mi_check_param" Collapsed="true">
+    <Position X="39.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAIjAgxhwAABgg4EyBBAIUEAEiCAywgAAAAAQpAACQ=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_sort_ft_buf" Collapsed="true">
+    <Position X="39.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_sort_info" Collapsed="true">
+    <Position X="39.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACACAgCAgAIAEAgAAAAECAAgQAACAEAAACA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mymerge_info" Collapsed="true">
+    <Position X="23.5" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAAAgAAAAAAICAAAABAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_myrg_table_info" Collapsed="true">
+    <Position X="39.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_myrg_info" Collapsed="true">
+    <Position X="39.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAABAABAAIggBAAAQAgQAAABAAEABAgAAAACEAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_field" Collapsed="true">
+    <Position X="35.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAQAABAQFEBgBAAAABFAAAABAAAEQAAAwQ=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_rows" Collapsed="true">
+    <Position X="21.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_data" Collapsed="true">
+    <Position X="27.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAAAACABAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_options" Collapsed="true">
+    <Position X="67.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAEAgBCFAQAADBQwEAQSBAIBiwQAgAAAmAIgAIAwE=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="character_set" Collapsed="true">
+    <Position X="19.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAgAAACAAQAAAAAAAAAAAAAAEAAAEAAAAgAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql" Collapsed="true">
+    <Position X="15.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMSggSQUAIAYAFEAAAAgKAAAAIwQAg0QQAgAQgACBQA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_res" Collapsed="true">
+    <Position X="38.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAABAAAAAAAEAAEDAIAAAACQAACSQAIAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_manager" Collapsed="true">
+    <Position X="11.5" Y="39.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABgACAACAAAAAAAAAAkEAAAAAAAAEgQAAgAAAwAAQA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_parameters" Collapsed="true">
+    <Position X="7.5" Y="39.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_bind" Collapsed="true">
+    <Position X="3.5" Y="39.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAACAAAgAEAAAAQEEAAAAAECABgAAQAABBAAhAIBA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_stmt" Collapsed="true">
+    <Position X="31.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EATFQgAECYACAAgABAAAAAAAAIQAAgAEAACABAISAAQ=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_methods" Collapsed="true">
+    <Position X="36.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SBAAAAAArCAAAABAAAAIAJAAACAAAAAAAQBAAAAAEAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_net" Collapsed="true">
+    <Position X="35.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEKCECAAAqIAHQEFEIAAhEICAAAEAAABAIEABAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="rand_struct" Collapsed="true">
+    <Position X="71" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_udf_args" Collapsed="true">
+    <Position X="35.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAAAIAAAAAAQAAAAAAAEACAAAAAAAAAAQA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_udf_init" Collapsed="true">
+    <Position X="35.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAIAAAAAAAAABAAAABAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_mysql_time" Collapsed="true">
+    <Position X="35.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAgAgAEAAABQAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_time.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_queue" Collapsed="true">
+    <Position X="23.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAABAAAAAgAACQAAAAAAAAAAAAAAgAQAA=</HashCode>
+      <FileName>mysql\include\queues.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SHA1_CONTEXT" Collapsed="true">
+    <Position X="72.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAQAAAAAAgAAAABABAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>mysql\include\sha1.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_alarm_info" Collapsed="true">
+    <Position X="27.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_alarm.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_thr_lock_info" Collapsed="true">
+    <Position X="19.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAQIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_thr_lock_owner" Collapsed="true">
+    <Position X="15.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_thr_lock_data" Collapsed="true">
+    <Position X="34.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEAgAAAAAAAAAAAEAABAAAQAABAAAIAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_lock_list" Collapsed="true">
+    <Position X="79.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_thr_lock" Collapsed="true">
+    <Position X="11.5" Y="34.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAEAgIACAAAAAAAECAAAAAAAIAAAAAAQQAAAAAAIAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_typelib" Collapsed="true">
+    <Position X="7.5" Y="34.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\typelib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_vio" Collapsed="true">
+    <Position X="3.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UqBgABAEAAAAAIgACCAggAQAAwARAEBBQSGCAACFgAg=</HashCode>
+      <FileName>mysql\include\violite.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="wordvalue" Collapsed="true">
+    <Position X="78" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-czech.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_01fb_1" Collapsed="true">
+    <Position X="64" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-mb.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_01fc_1" Collapsed="true">
+    <Position X="31.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-simple.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_uca_scanner_st" Collapsed="true">
+    <Position X="31.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQUAAEAAQAAAAIAAAAAAAARAAAAAAAAE=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_uca_scanner_handler_st" Collapsed="true">
+    <Position X="31.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_coll_lexem_st" Collapsed="true">
+    <Position X="32.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAAAAAAAAAAAAgAAIAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_coll_rule_item_st" Collapsed="true">
+    <Position X="23.5" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_cs_file_section_st" Collapsed="true">
+    <Position X="78" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_cs_file_info" Collapsed="true">
+    <Position X="29.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAAAAKgEAAAACAAAAAABEIgAAABAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="link" Collapsed="true">
+    <Position X="71" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAA=</HashCode>
+      <FileName>mysql\libmysql\dbug.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="state" Collapsed="true">
+    <Position X="71" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAQAAAAAQAAAQAgAAACgAAAEEAAAAAQAEAAAAAAQ=</HashCode>
+      <FileName>mysql\libmysql\dbug.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_code_state" Collapsed="true">
+    <Position X="27.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCEgAAAAAKAIAAAAAAAAAAAEAAAEABAAAAQAAQAA=</HashCode>
+      <FileName>mysql\libmysql\dbug.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="handle_option_ctx" Collapsed="true">
+    <Position X="65.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\default.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_hash_info" Collapsed="true">
+    <Position X="19.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>mysql\libmysql\hash.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_default_local_infile" Collapsed="true">
+    <Position X="15.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>mysql\libmysql\libmysql.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="my_err_head" Collapsed="true">
+    <Position X="79.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAIAAAAAAAAAAAAAAgAQAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\my_error.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_remember" Collapsed="true">
+    <Position X="69.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\my_static.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="st_irem" Collapsed="true">
+    <Position X="76.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAhAAAIAAAA=</HashCode>
+      <FileName>mysql\libmysql\my_static.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="xml_attr_st" Collapsed="true">
+    <Position X="27.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\xml.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="config_s" Collapsed="true">
+    <Position X="11.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAAEAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="static_tree_desc_s" Collapsed="true">
+    <Position X="7.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ct_data_s" Collapsed="true">
+    <Position X="72.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="tree_desc_s" Collapsed="true">
+    <Position X="74.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAhAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="internal_state" Collapsed="true">
+    <Position X="69.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gz_stream" Collapsed="true">
+    <Position X="64" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAMEEAIAAAAACgQAACAAIAAAIAAAAADAQAAAAAAgA=</HashCode>
+      <FileName>zlib\gzio.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="inflate_state" Collapsed="true">
+    <Position X="67.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIIpAAMAAGQAUASgAAAAABAAAAOAUAAYAIAQgQ=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_0280_1" Collapsed="true">
+    <Position X="26.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="z_stream_s" Collapsed="true">
+    <Position X="10.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAEAAAIAAAACQAAAIICAAEEAAQAAAEAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="gz_header_s" Collapsed="true">
+    <Position X="1.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBACAAQAAEAAAABAABAAAAAAAEAAAIAAkQAAAAAQA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::VarLenValue" Collapsed="true">
+    <Position X="76.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\MessageImpl.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::ParameterValue" Collapsed="true">
+    <Position X="67.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AigAgQAAAAAAACAAAEKAAAAAAAABEAAAAAAQACAAAAA=</HashCode>
+      <FileName>include\ParameterValue.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::QueryItem" Collapsed="true">
+    <Position X="69.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>include\QueryDefine.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::MessageInfo" Collapsed="true">
+    <Position X="74.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::FileInfo" Collapsed="true">
+    <Position X="79.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::ModuleInfo" Collapsed="true">
+    <Position X="76.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAABAAAA=</HashCode>
+      <FileName>include\RunTimeMonitor.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::CommandItem" Collapsed="true">
+    <Position X="71" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SessionCommand.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Zoic::LogData" Collapsed="true">
+    <Position X="72.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAAAAABIAAAA=</HashCode>
+      <FileName>logger\logcontent.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="socklen_t" Collapsed="true">
+    <Position X="76.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Session.cpp</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::MESSAGE_FUNC" Collapsed="true">
+    <Position X="23.5" Y="56.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\CommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::CommandTable" Collapsed="true">
+    <Position X="23.5" Y="54.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\CommandFactory.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::MSG_VEC_COUNT_TYPE" Collapsed="true">
+    <Position X="54.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\MessageImpl.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::LogLevelValue" Collapsed="true">
+    <Position X="64" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>logger\loglevel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::QueryStorage" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\QueryDefine.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::FUNC_MODULE_INITIAL" Collapsed="true">
+    <Position X="64" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Service.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::FUNC_MODULE_START" Collapsed="true">
+    <Position X="67.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Service.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::FUNC_MODULE_RUN" Collapsed="true">
+    <Position X="65.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Service.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::FUNC_MODULE_STOP" Collapsed="true">
+    <Position X="69.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Service.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::LIST_SESSIONS" Collapsed="true">
+    <Position X="78" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SessionBank.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::CommandClass" Collapsed="true">
+    <Position X="69.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SessionCommand.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Zoic::CommandStorage" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\SessionCommand.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BYTE" Collapsed="true">
+    <Position X="54.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WORD" Collapsed="true">
+    <Position X="7.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DWORD" Collapsed="true">
+    <Position X="3.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QWORD" Collapsed="true">
+    <Position X="65.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TIME_MSEL" Collapsed="true">
+    <Position X="78" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TIME_SEC" Collapsed="true">
+    <Position X="79.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PCSTR" Collapsed="true">
+    <Position X="76.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SerialType" Collapsed="true">
+    <Position X="0.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HandleType" Collapsed="true">
+    <Position X="10.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IP_TYPE" Collapsed="true">
+    <Position X="3.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PORT_TYPE" Collapsed="true">
+    <Position X="7.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SOCKET" Collapsed="true">
+    <Position X="74.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>include\Types.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="os_off_t" Collapsed="true">
+    <Position X="69.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\config-win.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushort" Collapsed="true">
+    <Position X="79.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\config-win.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint" Collapsed="true">
+    <Position X="15.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\config-win.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="sigset_t" Collapsed="true">
+    <Position X="69.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\config-win.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="off_t" Collapsed="true">
+    <Position X="67.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>c:\program files (x86)\microsoft visual studio 9.0\vc\include\wchar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="rf_SetTimer" Collapsed="true">
+    <Position X="18.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\config-win.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="decimal_round_mode" Collapsed="true">
+    <Position X="51.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\decimal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="decimal_digit_t" Collapsed="true">
+    <Position X="47.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\decimal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="decimal_t" Collapsed="true">
+    <Position X="47.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\decimal.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FT_INFO" Collapsed="true">
+    <Position X="39.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\ft_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hash_get_key" Collapsed="true">
+    <Position X="76.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\hash.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="hash_free_key" Collapsed="true">
+    <Position X="74.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\hash.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HASH" Collapsed="true">
+    <Position X="35.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\hash.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HASH_SEARCH_STATE" Collapsed="true">
+    <Position X="12.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\hash.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HEAPINFO" Collapsed="true">
+    <Position X="27.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_PTRS" Collapsed="true">
+    <Position X="19.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_BLOCK" Collapsed="true">
+    <Position X="15.5" Y="53.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_KEYDEF" Collapsed="true">
+    <Position X="11.5" Y="52.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_SHARE" Collapsed="true">
+    <Position X="52.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_INFO" Collapsed="true">
+    <Position X="7.5" Y="52.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HP_CREATE_INFO" Collapsed="true">
+    <Position X="3.5" Y="52.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HEAP_PTR" Collapsed="true">
+    <Position X="78" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\heap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BLOCK_LINK" Collapsed="true">
+    <Position X="65.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KEYCACHE_PAGE" Collapsed="true">
+    <Position X="76.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HASH_LINK" Collapsed="true">
+    <Position X="19.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\hash.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KEYCACHE_WQUEUE" Collapsed="true">
+    <Position X="51.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KEY_CACHE" Collapsed="true">
+    <Position X="51.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\keycache.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_UNICASE_INFO" Collapsed="true">
+    <Position X="51.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_UNI_IDX" Collapsed="true">
+    <Position X="51.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_match_t" Collapsed="true">
+    <Position X="31.5" Y="51.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_COLLATION_HANDLER" Collapsed="true">
+    <Position X="51.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_CHARSET_HANDLER" Collapsed="true">
+    <Position X="51.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CHARSET_INFO" Collapsed="true">
+    <Position X="51.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="POINTER" Collapsed="true">
+    <Position X="79.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\md5.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT2" Collapsed="true">
+    <Position X="48.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\md5.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UINT4" Collapsed="true">
+    <Position X="18.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\md5.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_MD5_CTX" Collapsed="true">
+    <Position X="43.5" Y="50.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\md5.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="USED_MEM" Collapsed="true">
+    <Position X="50.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_alloc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MEM_ROOT" Collapsed="true">
+    <Position X="23.5" Y="49.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_alloc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="key_range" Collapsed="true">
+    <Position X="47.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="KEY_MULTI_RANGE" Collapsed="true">
+    <Position X="39.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ha_rows" Collapsed="true">
+    <Position X="47.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_BITMAP" Collapsed="true">
+    <Position X="35.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_bitmap.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_STAT" Collapsed="true">
+    <Position X="27.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="FILEINFO" Collapsed="true">
+    <Position X="19.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_DIR" Collapsed="true">
+    <Position X="15.5" Y="48.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_dir.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_get_one_option" Collapsed="true">
+    <Position X="69.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_getopt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_error_reporter" Collapsed="true">
+    <Position X="67.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_getopt.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="File" Collapsed="true">
+    <Position X="78" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="sig_return" Collapsed="true">
+    <Position X="67.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pchar" Collapsed="true">
+    <Position X="74.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="puchar" Collapsed="true">
+    <Position X="15.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pbool" Collapsed="true">
+    <Position X="72.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pshort" Collapsed="true">
+    <Position X="67.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pfloat" Collapsed="true">
+    <Position X="78" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qsort_cmp" Collapsed="true">
+    <Position X="76.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qsort_cmp2" Collapsed="true">
+    <Position X="78" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="size_socket" Collapsed="true">
+    <Position X="72.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_ptrdiff_t" Collapsed="true">
+    <Position X="72.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gptr" Collapsed="true">
+    <Position X="72.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int8" Collapsed="true">
+    <Position X="67.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int16" Collapsed="true">
+    <Position X="65.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uchar" Collapsed="true">
+    <Position X="72.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint8" Collapsed="true">
+    <Position X="47.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint16" Collapsed="true">
+    <Position X="48.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int32" Collapsed="true">
+    <Position X="47.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint32" Collapsed="true">
+    <Position X="15.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ulong" Collapsed="true">
+    <Position X="47.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_ulonglong" Collapsed="true">
+    <Position X="78" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_off_t" Collapsed="true">
+    <Position X="71" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int7" Collapsed="true">
+    <Position X="47.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int15" Collapsed="true">
+    <Position X="64" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_string" Collapsed="true">
+    <Position X="74.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="size_s" Collapsed="true">
+    <Position X="71" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="myf" Collapsed="true">
+    <Position X="79.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_global.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_bool" Collapsed="true">
+    <Position X="11.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="HA_KEYSEG" Collapsed="true">
+    <Position X="47.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_handler.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LIST" Collapsed="true">
+    <Position X="47.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_list.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="list_walk_action" Collapsed="true">
+    <Position X="79.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_list.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_mutex_t" Collapsed="true">
+    <Position X="71" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_t" Collapsed="true">
+    <Position X="74.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_attr_t" Collapsed="true">
+    <Position X="47.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_condattr_t" Collapsed="true">
+    <Position X="11.5" Y="49.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_link" Collapsed="true">
+    <Position X="7.5" Y="47.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_cond_t" Collapsed="true">
+    <Position X="3.5" Y="47.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_mutexattr_t" Collapsed="true">
+    <Position X="72.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="pthread_handler" Collapsed="true">
+    <Position X="69.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="safe_mutex_t" Collapsed="true">
+    <Position X="31.5" Y="46.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_rw_lock_t" Collapsed="true">
+    <Position X="46.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_pthread.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="WF_PACK" Collapsed="true">
+    <Position X="43.5" Y="45.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="RECORD_CACHE" Collapsed="true">
+    <Position X="23.5" Y="44.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_TMPDIR" Collapsed="true">
+    <Position X="44.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DYNAMIC_ARRAY" Collapsed="true">
+    <Position X="43.5" Y="40.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DYNAMIC_STRING" Collapsed="true">
+    <Position X="39.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IO_CACHE_CALLBACK" Collapsed="true">
+    <Position X="72.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IO_CACHE" Collapsed="true">
+    <Position X="35.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="qsort2_cmp" Collapsed="true">
+    <Position X="79.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ha_checksum" Collapsed="true">
+    <Position X="15.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Process_option_func" Collapsed="true">
+    <Position X="65.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_time_t" Collapsed="true">
+    <Position X="76.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_time.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TREE_WALK" Collapsed="true">
+    <Position X="43.5" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="element_count" Collapsed="true">
+    <Position X="15.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tree_walk_action" Collapsed="true">
+    <Position X="67.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TREE_FREE" Collapsed="true">
+    <Position X="43.5" Y="30.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tree_element_free" Collapsed="true">
+    <Position X="65.75" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TREE_ELEMENT" Collapsed="true">
+    <Position X="27.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TREE" Collapsed="true">
+    <Position X="43.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_XML_PARSER" Collapsed="true">
+    <Position X="43.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_xml.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_ISAMINFO" Collapsed="true">
+    <Position X="19.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_CREATE_INFO" Collapsed="true">
+    <Position X="15.5" Y="43.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_INFO" Collapsed="true">
+    <Position X="65.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_KEYDEF" Collapsed="true">
+    <Position X="42.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_UNIQUEDEF" Collapsed="true">
+    <Position X="11.5" Y="42.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_DECODE_TREE" Collapsed="true">
+    <Position X="7.5" Y="42.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_COLUMNDEF" Collapsed="true">
+    <Position X="3.5" Y="42.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="invalidator_by_filename" Collapsed="true">
+    <Position X="71" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SORT_KEY_BLOCKS" Collapsed="true">
+    <Position X="31.5" Y="41.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="enum_mi_stats_method" Collapsed="true">
+    <Position X="40.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MI_CHECK" Collapsed="true">
+    <Position X="39.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SORT_FT_BUF" Collapsed="true">
+    <Position X="39.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SORT_INFO" Collapsed="true">
+    <Position X="39.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYMERGE_INFO" Collapsed="true">
+    <Position X="23.5" Y="39.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYRG_TABLE" Collapsed="true">
+    <Position X="39.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYRG_INFO" Collapsed="true">
+    <Position X="39.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisammrg.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_FIELD" Collapsed="true">
+    <Position X="35.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_ROW" Collapsed="true">
+    <Position X="65.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_FIELD_OFFSET" Collapsed="true">
+    <Position X="64" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_ROWS" Collapsed="true">
+    <Position X="19.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_ROW_OFFSET" Collapsed="true">
+    <Position X="19.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EMBEDDED_QUERY_RESULT" Collapsed="true">
+    <Position X="76.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_DATA" Collapsed="true">
+    <Position X="27.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_CHARSET_INFO" Collapsed="true">
+    <Position X="19.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL" Collapsed="true">
+    <Position X="15.5" Y="38.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_RES" Collapsed="true">
+    <Position X="38.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_MANAGER" Collapsed="true">
+    <Position X="11.5" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_PARAMETERS" Collapsed="true">
+    <Position X="7.5" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_BIND" Collapsed="true">
+    <Position X="3.5" Y="37.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_STMT" Collapsed="true">
+    <Position X="31.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_METHODS" Collapsed="true">
+    <Position X="36.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Vio" Collapsed="true">
+    <Position X="3.5" Y="34.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NET" Collapsed="true">
+    <Position X="35.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UDF_ARGS" Collapsed="true">
+    <Position X="35.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="UDF_INIT" Collapsed="true">
+    <Position X="35.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MYSQL_TIME" Collapsed="true">
+    <Position X="35.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_time.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="QUEUE" Collapsed="true">
+    <Position X="23.5" Y="34.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\queues.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="queue_compare" Collapsed="true">
+    <Position X="64" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\queues.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ALARM_INFO" Collapsed="true">
+    <Position X="27.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_alarm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="thr_alarm_t" Collapsed="true">
+    <Position X="14.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_alarm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ALARM" Collapsed="true">
+    <Position X="11.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_alarm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="THR_LOCK_INFO" Collapsed="true">
+    <Position X="19.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="THR_LOCK_OWNER" Collapsed="true">
+    <Position X="15.5" Y="33.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="THR_LOCK_DATA" Collapsed="true">
+    <Position X="33.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="THR_LOCK" Collapsed="true">
+    <Position X="11.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TYPELIB" Collapsed="true">
+    <Position X="7.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\typelib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uni_idx" Collapsed="true">
+    <Position X="31.5" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-simple.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_uca_scanner" Collapsed="true">
+    <Position X="31.5" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_uca_scanner_handler" Collapsed="true">
+    <Position X="31.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="my_coll_lexem_num" Collapsed="true">
+    <Position X="31.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_COLL_LEXEM" Collapsed="true">
+    <Position X="30.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_COLL_RULE" Collapsed="true">
+    <Position X="23.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_CHARSET_LOADER" Collapsed="true">
+    <Position X="29.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CODE_STATE" Collapsed="true">
+    <Position X="27.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\dbug.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GET_SYSTEM_WINDOWS_DIRECTORY" Collapsed="true">
+    <Position X="71" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\default.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="default_local_infile_data" Collapsed="true">
+    <Position X="15.5" Y="28.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\libmysql.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MY_XML_ATTR" Collapsed="true">
+    <Position X="27.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\xml.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="u4" Collapsed="true">
+    <Position X="69.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\crc32.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="block_state" Collapsed="true">
+    <Position X="27.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="compress_func" Collapsed="true">
+    <Position X="71" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="config" Collapsed="true">
+    <Position X="11.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ct_data" Collapsed="true">
+    <Position X="72.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="static_tree_desc" Collapsed="true">
+    <Position X="7.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tree_desc" Collapsed="true">
+    <Position X="64" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Pos" Collapsed="true">
+    <Position X="22.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Posf" Collapsed="true">
+    <Position X="64" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPos" Collapsed="true">
+    <Position X="74.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="deflate_state" Collapsed="true">
+    <Position X="74.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\deflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="inflate_mode" Collapsed="true">
+    <Position X="3.5" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="code" Collapsed="true">
+    <Position X="26.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="codetype" Collapsed="true">
+    <Position X="25.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Byte" Collapsed="true">
+    <Position X="23.5" Y="26.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uInt" Collapsed="true">
+    <Position X="19.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLong" Collapsed="true">
+    <Position X="23.5" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Bytef" Collapsed="true">
+    <Position X="23.5" Y="24.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="charf" Collapsed="true">
+    <Position X="67.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="intf" Collapsed="true">
+    <Position X="69.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uIntf" Collapsed="true">
+    <Position X="19.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uLongf" Collapsed="true">
+    <Position X="23.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpc" Collapsed="true">
+    <Position X="64" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidpf" Collapsed="true">
+    <Position X="65.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="voidp" Collapsed="true">
+    <Position X="15.5" Y="25.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zconf.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="alloc_func" Collapsed="true">
+    <Position X="64" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="free_func" Collapsed="true">
+    <Position X="79.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_stream" Collapsed="true">
+    <Position X="7.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="z_streamp" Collapsed="true">
+    <Position X="7.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_header" Collapsed="true">
+    <Position X="3.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gz_headerp" Collapsed="true">
+    <Position X="3.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="in_func" Collapsed="true">
+    <Position X="79.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="out_func" Collapsed="true">
+    <Position X="71" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="gzFile" Collapsed="true">
+    <Position X="15.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zlib.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uch" Collapsed="true">
+    <Position X="71" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uchf" Collapsed="true">
+    <Position X="74.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ush" Collapsed="true">
+    <Position X="22.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ushf" Collapsed="true">
+    <Position X="78" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ulg" Collapsed="true">
+    <Position X="76.25" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\zutil.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="__unnamed_02a8_1" Collapsed="true">
+    <Position X="51.5" Y="55.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAgCAA=</HashCode>
+      <FileName>mysql\include\decimal.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="my_lex_states" Collapsed="true">
+    <Position X="64" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CMAMIAQQAgCgACIggAASwAAAAAEAABACBAAkAAQAEGA=</HashCode>
+      <FileName>mysql\include\m_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ha_rkey_function" Collapsed="true">
+    <Position X="64" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgAIIQEACAAAAAgACAABAAAAABCAAAEA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ha_key_alg" Collapsed="true">
+    <Position X="78" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAACA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ha_extra_function" Collapsed="true">
+    <Position X="76.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WAMACQgIBAAIkIQIAQAIAARVAABCAQCAAEAhEACAAAY=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ha_panic_function" Collapsed="true">
+    <Position X="79.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAIAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ha_base_keytype" Collapsed="true">
+    <Position X="74.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgBkIAMAAACABAAARAggCAAAAAAAAAAAQKgAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="en_fieldtype" Collapsed="true">
+    <Position X="67.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAEAIASIAAAEAQAIAAAGAAAACAAAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="data_file_type" Collapsed="true">
+    <Position X="65.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAIAAA=</HashCode>
+      <FileName>mysql\include\my_base.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="get_opt_arg_type" Collapsed="true">
+    <Position X="72.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_getopt.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="loglevel" Collapsed="true">
+    <Position X="79.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="cache_type" Collapsed="true">
+    <Position X="64" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQAAAAAEIAAAAAAAAgAAAAAAAAAACAAACAAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="flush_type" Collapsed="true">
+    <Position X="71" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAAAQAAAA=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="file_type" Collapsed="true">
+    <Position X="69.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAJAAAQAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAQ=</HashCode>
+      <FileName>mysql\include\my_sys.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_02ad_1" Collapsed="true">
+    <Position X="43.5" Y="35.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_02ad_2" Collapsed="true">
+    <Position X="43.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\my_tree.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_02b5_1" Collapsed="true">
+    <Position X="41.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\myisam.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mysql_option" Collapsed="true">
+    <Position X="67.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJCAAFABBgAAAAIgIAIAgAAAAAAgAAAAAQCAAAAQAAU=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mysql_status" Collapsed="true">
+    <Position X="72.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAEA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mysql_protocol_type" Collapsed="true">
+    <Position X="69.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mysql_rpl_type" Collapsed="true">
+    <Position X="71" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_mysql_stmt_state" Collapsed="true">
+    <Position X="74.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAIAAAAABAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_stmt_attr_type" Collapsed="true">
+    <Position X="64" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_server_command" Collapsed="true">
+    <Position X="78" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAICRgAhAEAAAggCIAIIgADAAAAEAIAJAAFACYCAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_field_types" Collapsed="true">
+    <Position X="71" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQgGAAIAAIAAIiAUAACCAQIiAACCAIAAAACAAAAYAhA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mysql_enum_shutdown_level" Collapsed="true">
+    <Position X="65.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAQAAgAAAAAAABAAAAAAAMAAAABAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_cursor_type" Collapsed="true">
+    <Position X="69.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAIAAAAACAAAAAAAACAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_mysql_set_option" Collapsed="true">
+    <Position X="72.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Item_result" Collapsed="true">
+    <Position X="65.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAABAAIAAAA=</HashCode>
+      <FileName>mysql\include\mysql_com.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_mysql_timestamp_type" Collapsed="true">
+    <Position X="76.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQQAAg=</HashCode>
+      <FileName>mysql\include\mysql_time.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="sha_result_codes" Collapsed="true">
+    <Position X="74.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>mysql\include\sha1.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="l1_symbols" Collapsed="true">
+    <Position X="67.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASiIEUIIggAQCAIAmojAAREx8f//v/4vAgogAACECEE=</HashCode>
+      <FileName>mysql\include\t_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="l2_symbols" Collapsed="true">
+    <Position X="69.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAgAAAAAAAQEAAAAAAEBAAAAAAAAIAAAgg=</HashCode>
+      <FileName>mysql\include\t_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="l3_symbols" Collapsed="true">
+    <Position X="71" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFigBAAAASATAASAAAEGgFEABAgIINIgAEBABEADI=</HashCode>
+      <FileName>mysql\include\t_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="l4_symbols" Collapsed="true">
+    <Position X="72.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>mysql\include\t_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="level_symbols" Collapsed="true">
+    <Position X="74.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\t_ctype.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="thr_lock_type" Collapsed="true">
+    <Position X="78" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAYAAAIABACAAAAAAABQCAABAAAIAAAAAAAAIA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_thr_lock_result" Collapsed="true">
+    <Position X="65.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAEAABAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\thr_lock.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_vio_type" Collapsed="true">
+    <Position X="67.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAIAAAAIAAEAAAAAAACAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\violite.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SSL_type" Collapsed="true">
+    <Position X="76.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAACAAAAAAAAEBAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>mysql\include\violite.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="my_coll_lexem_num_en" Collapsed="true">
+    <Position X="31.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAIIAAAAAAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>mysql\libmysql\ctype-uca.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="enum_special_opt" Collapsed="true">
+    <Position X="79.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAEAAAAAAAAAAgEAAACAA=</HashCode>
+      <FileName>mysql\libmysql\my_getopt.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_027c_1" Collapsed="true">
+    <Position X="27.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAIAACAAAA=</HashCode>
+      <FileName>zlib\deflate.c</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_0281_1" Collapsed="true">
+    <Position X="3.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAFEECACQgABAwYAABAQQECAQcAAAAAAAEAAAAAAAEs=</HashCode>
+      <FileName>zlib\inflate.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_0280_2" Collapsed="true">
+    <Position X="25.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAABAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>zlib\inftrees.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Zoic::LogAppenderType" Collapsed="true">
+    <Position X="76.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAIAgAAAAQAAAAQA=</HashCode>
+      <FileName>logger\appender.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Zoic::LogContentType" Collapsed="true">
+    <Position X="78" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAQAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>logger\logcontent.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

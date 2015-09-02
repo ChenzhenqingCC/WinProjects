@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zoic", "..\Zoic\Zoic.vcproj", "{0558FCCD-30D8-4F54-8EFE-505310899FEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RanaSrv", "RanaSrv.vcproj", "{2CCDD752-20A2-4A39-B4F9-68106E04438E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4} = {1297275F-CFDB-4A28-96D3-026A6265EDA4}
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB} = {0558FCCD-30D8-4F54-8EFE-505310899FEB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rana", "..\rana\rana.vcproj", "{1297275F-CFDB-4A28-96D3-026A6265EDA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_PCLint|Win32 = Release_PCLint|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Debug|Win32.Build.0 = Debug|Win32
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Release_PCLint|Win32.ActiveCfg = Release_PCLint|Win32
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Release_PCLint|Win32.Build.0 = Release_PCLint|Win32
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Release|Win32.ActiveCfg = Release|Win32
+		{0558FCCD-30D8-4F54-8EFE-505310899FEB}.Release|Win32.Build.0 = Release|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Debug|Win32.Build.0 = Debug|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Release_PCLint|Win32.ActiveCfg = Release_PCLint|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Release_PCLint|Win32.Build.0 = Release_PCLint|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Release|Win32.ActiveCfg = Release|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Release|Win32.Build.0 = Release|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Debug|Win32.Build.0 = Debug|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Release_PCLint|Win32.ActiveCfg = Release_PCLint|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Release_PCLint|Win32.Build.0 = Release_PCLint|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Release|Win32.ActiveCfg = Release|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
