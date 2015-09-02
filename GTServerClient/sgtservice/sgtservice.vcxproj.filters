@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{c403ba2e-4d33-420c-b228-d272672db914}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{d735f169-4ba2-4fe5-8adb-719b0e7667ab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{60742c21-efc8-4ab1-a4f3-a375fda28ee6}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="webui">
+      <UniqueIdentifier>{6b535962-79dd-48c3-9cd7-e7818ee48373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="collectwork.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="maindlg.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sgtservice.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\cppieembed.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\jsobject.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\tdispatch.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\tdochostshowui.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\tdochostuihandler.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\toleclientsite.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\toleinplaceframe.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\toleinplacesite.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\urlcode.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\webform.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\webformdispatchhandler.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\webformdispatchimpl.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="webui\webwindow.cpp">
+      <Filter>webui</Filter>
+    </ClCompile>
+    <ClCompile Include="WebDispWindow.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="collectwork.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="maindlg.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sgtservice.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="workitem.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\jsobject.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\tdispatch.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\tdochostshowui.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\tdochostuihandler.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\toleclientsite.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\toleinplaceframe.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\toleinplacesite.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\urlcode.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\webform.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\webformdispatchhandler.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\webformdispatchimpl.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="webui\webwindow.h">
+      <Filter>webui</Filter>
+    </ClInclude>
+    <ClInclude Include="WebDispWindow.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\sgtservice.ico">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sgtservice.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- comment -->
+<!-- version -->
+<version no="1.0.0.0" />
+<remote version_url="version.xml" base_url="http://downloadphone.ztgame.com.cn/gtcenter/" user="" pwd="" />
+<local version_url="version.xml" update_path="\update" targ_path="" />
+<updatee path="\gtservice.exe" />
