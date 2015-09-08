@@ -11,7 +11,7 @@ type 字段类型
 <config>
 	<table name="ItemProp" ExcelFile="道具基本表.xlsx" sheet="主属性" sort="编号">
 		<fields>
-			<field name="编号" type="int" var="dwID"/>
+			<field name="编号" type="DWORD" var="dwID"/>
 			<field name="名称" type="string" var="strName"/>
 			<field name="属性" type="float" var="ftProp"/>
 			<field name="图包" type="string" var="strPack"/>

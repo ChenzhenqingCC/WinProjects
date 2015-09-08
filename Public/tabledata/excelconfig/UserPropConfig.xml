@@ -14,6 +14,7 @@ type 字段类型
 			<field name="编号" type="int" var="dwID"/>
 			<field name="名称" type="string" var="strName"/>
 			<field name="属性" type="float" var="ftProp"/>
+			<field name="排名" type="int" var="strRank"/>
 		</fields>
 	</table>
 </config>
