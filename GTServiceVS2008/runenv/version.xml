@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="no" ?>
+<!-- cur avalidate version-->
+<versioninfo cur="1.0.1.5">
+<version no="1.0.0.1">
+<item priority="1" name="\cfg.ini" path="v_1.0.0.1/cfg.ini" />
+<item priority="1" name="\gtservice.exe" path="v_1.0.0.1/gtservice.exe" />
+<item priority="1" name="\gtnotice.exe" path="v_1.0.0.1/gtnotice.exe" />
+<item priority="1" name="\ghostproxy.dll" path="v_1.0.0.1/ghostproxy.dll" />
+<item priority="1" name="\res\sbk2.jpg" path="v_1.0.0.1/res/sbk2.jpg" />
+<item priority="1" name="\res\close1.gif" path="v_1.0.0.1/res/close1.gif" />
+<item priority="1" name="\res\close2.gif" path="v_1.0.0.1/res/close2.gif" />
+</version>
+<version no="1.0.0.6">
+<item priority="1" name="\gtservice.exe" path="v_1.0.0.6/gtservice.exe"/>
+<item priority="1" name="\gtnotice.exe" path="v_1.0.0.6/gtnotice.exe" />
+</version>
+<version no="1.0.0.7">
+<item priority="1" name="\gtservice.exe" path="v_1.0.0.7/gtservice.exe"/>
+</version>
+<version no="1.0.0.8">
+<item priority="1" name="\gtnotice.exe" path="v_1.0.0.8/gtnotice.exe"/>
+</version>
+<version no="1.0.0.9">
+<item priority="1" name="\gtservice.exe" path="v_1.0.0.9/gtservice.exe"/>
+</version>
+<version no="1.0.1.0">
+<item priority="1" name="\gtservice.exe" path="v_1.0.1.0/gtservice.exe"/>
+</version>
+<version no="1.0.1.1">
+<item priority="1" name="\autoupdate.exe" path="autoupdate.exe"/>
+</version>
+<version no="1.0.1.2">
+<item priority="1" name="\gtnotice.exe" path="v_1.0.1.2/gtnotice.exe"/>
+<item priority="1" name="\gtservice.exe" path="v_1.0.1.2/gtservice.exe" service="true"/>
+</version>
+<version no="1.0.1.3">
+<item priority="1" name="\gtnotice.exe" path="v_1.0.1.3/gtnotice.exe"/>
+</version>
+<version no="1.0.1.4">
+<item priority="1" name="\gtnotice.exe" path="v_1.0.1.3/gtnotice.exe"/>
+</version>
+<version no="1.0.1.5">
+<item priority="1" name="\gtservice.exe" path="v_1.0.1.5/gtservice.exe"/>
+</version>
+</versioninfo>

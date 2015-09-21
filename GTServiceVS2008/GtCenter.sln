@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sgtservice", "sgtservice\sgtservice.vcproj", "{D97E7E26-F507-477D-A258-2E0407243CAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtnotice", "gtnotice\gtnotice.vcproj", "{678A792B-E1D3-4392-81F4-7F187B6A3485}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA584A7D-5135-44CE-BE34-03A60A8CF3C5} = {DA584A7D-5135-44CE-BE34-03A60A8CF3C5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ghostproxy", "ghostproxy\ghostproxy.vcproj", "{DA584A7D-5135-44CE-BE34-03A60A8CF3C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "autoupdate", "autoupdate\autoupdate.vcproj", "{9B97A3C6-0BB5-4438-AE82-C314A7A4488A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97E7E26-F507-477D-A258-2E0407243CAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D97E7E26-F507-477D-A258-2E0407243CAC}.Debug|Win32.Build.0 = Debug|Win32
+		{D97E7E26-F507-477D-A258-2E0407243CAC}.Release|Win32.ActiveCfg = Release|Win32
+		{D97E7E26-F507-477D-A258-2E0407243CAC}.Release|Win32.Build.0 = Release|Win32
+		{678A792B-E1D3-4392-81F4-7F187B6A3485}.Debug|Win32.ActiveCfg = Debug|Win32
+		{678A792B-E1D3-4392-81F4-7F187B6A3485}.Debug|Win32.Build.0 = Debug|Win32
+		{678A792B-E1D3-4392-81F4-7F187B6A3485}.Release|Win32.ActiveCfg = Release|Win32
+		{678A792B-E1D3-4392-81F4-7F187B6A3485}.Release|Win32.Build.0 = Release|Win32
+		{DA584A7D-5135-44CE-BE34-03A60A8CF3C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DA584A7D-5135-44CE-BE34-03A60A8CF3C5}.Debug|Win32.Build.0 = Debug|Win32
+		{DA584A7D-5135-44CE-BE34-03A60A8CF3C5}.Release|Win32.ActiveCfg = Release|Win32
+		{DA584A7D-5135-44CE-BE34-03A60A8CF3C5}.Release|Win32.Build.0 = Release|Win32
+		{9B97A3C6-0BB5-4438-AE82-C314A7A4488A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B97A3C6-0BB5-4438-AE82-C314A7A4488A}.Debug|Win32.Build.0 = Debug|Win32
+		{9B97A3C6-0BB5-4438-AE82-C314A7A4488A}.Release|Win32.ActiveCfg = Release|Win32
+		{9B97A3C6-0BB5-4438-AE82-C314A7A4488A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
