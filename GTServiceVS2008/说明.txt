@@ -1,3 +1,4 @@
+需要在3Part中自行加入boost BOOST_LIB_VERSION "1_55"
 ghostproxy gtnotice 没用的，工程文件需要包含
 runenv 可执行文件
 autoupdate 更新程序

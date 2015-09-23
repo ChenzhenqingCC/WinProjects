@@ -1,0 +1,6 @@
+crypt	加密库
+EncDec	解密库
+loki	单例模式
+xmlparse xml库，底层封装tinyxml库(xml生成库)
+wtl	界面库
+zlib-1.2.3	zlib解压库
